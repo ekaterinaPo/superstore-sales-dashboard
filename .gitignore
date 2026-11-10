@@ -1,0 +1,14 @@
+# Publish only the README, dashboard PDFs, EDA notebook and data notes.
+# Everything else (Power BI files, raw data, plans, build scripts, outputs) stays local.
+/*
+!/.gitignore
+!/README.md
+!/Superstore_Dashboard.pdf
+!/Superstore_Dashboard_management.pdf
+!/requirements.txt
+!/notebooks/
+/notebooks/*
+!/notebooks/01_eda.ipynb
+!/data/
+/data/*
+!/data/README.md
